@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-sans;
+    }
+
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
+/*
+#244D61 - background
+#5689C0
+#75E2FF
+#EAEBED - text
+*/
