@@ -7,6 +7,9 @@ const About = () => {
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-[#5689C0]'>About</p>
                 </div>
+                <div>
+                    <p className='py-8 w-full'>I'm a web and mobile software developer.</p>
+                </div>
             </div>
         </section>
     )

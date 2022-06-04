@@ -16,7 +16,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
-      {/*<SocialBottomBar />*/}
+      <SocialBottomBar />
     </div>
   );
 }
