@@ -9,6 +9,7 @@ const Work = () => {
                     <p className='py-4'>Here are some of the projects I have worked on.</p>
                 </div>
                 <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+
                 </div>
             </div>
         </section>
