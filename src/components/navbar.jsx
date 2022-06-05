@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaAppStoreIos } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo-inverse.png';
 import { Link } from 'react-scroll';
 
 const NavBar = () => {
@@ -10,7 +10,7 @@ const NavBar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#244D61]'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#EAEBED] border-b border-black'>
             <img src={Logo} alt='Logo' style={{ width: '80px' }} />
 
             {/* menu */}
@@ -51,6 +51,11 @@ const NavBar = () => {
                     <a href='https://github.com/lainshiHenry' className='flex justify-between items-center w-full text-gray-300'>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                             GitHub <FaGithub size={30} />
+                        </li>
+                    </a>
+                    <a href='/' className='flex justify-between items-center w-full text-gray-300'>
+                        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3780EB]'>
+                            App Store <FaAppStoreIos size={30} />
                         </li>
                     </a>
                     <a href='mailto:henryle913@outlook.com' className='flex justify-between items-center w-full text-gray-300'>
