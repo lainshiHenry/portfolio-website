@@ -1,13 +1,13 @@
 import React from 'react'
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import DART from '../assets/dart.png';
-import FLUTTER from '../assets/flutter.png';
-import FIREBASE from '../assets/firebase.png';
-import JAVASCRIPT from '../assets/javascript.png';
-import GITHUB from '../assets/github.png';
-import REACT from '../assets/react.png';
-import TAILWIND from '../assets/tailwind.png';
+import HTML from '../assets/html-bw.png';
+import CSS from '../assets/css-bw.png';
+import DART from '../assets/dart-bw.png';
+import FLUTTER from '../assets/flutter-bw.png';
+import FIREBASE from '../assets/firebase-bw.png';
+import JAVASCRIPT from '../assets/javascript-bw.png';
+import GITHUB from '../assets/github-bw.png';
+import REACT from '../assets/react-bw.png';
+import TAILWIND from '../assets/tailwind-bw.png';
 import MSSQL from '../assets/mssql.png';
 import ExperienceItem from './ExperienceItem';
 
@@ -20,7 +20,7 @@ const Skills = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-[#5689C0]'>Experience</p>
                     <p className='py-4'>These are the technologies that I've worked with</p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 py-8'>
                     <ExperienceItem name='React JS' iconImage={REACT} />
                     <ExperienceItem name='Flutter' iconImage={FLUTTER} />
                     <ExperienceItem name='Dart' iconImage={DART} />

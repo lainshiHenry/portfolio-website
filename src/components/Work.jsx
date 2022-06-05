@@ -1,4 +1,5 @@
 import React from 'react'
+import PlaceHolderImage from '../assets/placeholder-image.png'
 
 const Work = () => {
     return (
@@ -9,7 +10,12 @@ const Work = () => {
                     <p className='py-4'>Here are some of the projects I have worked on.</p>
                 </div>
                 <div className='w-full grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                    <ul>
+                        <li><img src={PlaceHolderImage} alt='image 1'></img></li>
+                        <li><img src={PlaceHolderImage} alt='image 2'></img></li>
+                        <li><img src={PlaceHolderImage} alt='image 3'></img></li>
 
+                    </ul>
                 </div>
             </div>
         </section>
