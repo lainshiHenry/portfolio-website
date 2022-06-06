@@ -3,9 +3,9 @@ import React from 'react'
 const About = () => {
     return (
         <section name='about' className='bg-[#EAEBED] w-full min-h-screen'>
-            <div className='max-w-[700px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[700px] mx-auto p-8 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p name='aboutScrollTo' className='text-4xl font-bold inline border-b-4 border-[#5689C0]'>About</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#5689C0]'>About</p>
                 </div>
                 <div>
                     <p className='py-4 w-full'>I'm a full-stack web and mobile software developer building exception and functional digital experiences.</p>

@@ -8,7 +8,7 @@ const NavBar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className=' w-full h-[80px] flex justify-between items-center px-4 bg-[#EAEBED] border-b border-black sticky top-0'>
+        <div className=' w-full h-[80px] flex justify-between items-center px-4 bg-[#EAEBED] border-b border-black sticky top-0 z-10'>
 
             <img src={Logo} alt='Logo' style={{ width: '80px' }} />
 
@@ -32,11 +32,11 @@ const NavBar = () => {
 
             {/* Mobile menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#EAEBED] flex flex-col justify-center items-center'}>
-                <li className='py-4 text-4xl'><Link to='home' smooth={true} duration={500}>Home</Link></li>
-                <li className='py-4 text-4xl'><Link to='about' smooth={true} duration={500} offset={-70}>About</Link></li>
-                <li className='py-4 text-4xl'><Link to='skills' smooth={true} duration={500} offset={-70}>Skills</Link></li>
-                <li className='py-4 text-4xl'><Link to='work' smooth={true} duration={500} offset={-70}>Work</Link></li>
-                <li className='py-4 text-4xl'><Link to='contact' smooth={true} duration={500} offset={-70}>Contact</Link></li>
+                <li className='py-4 text-4xl'><Link to='home' smooth={true} duration={500} onClick={handleClick}>Home</Link></li>
+                <li className='py-4 text-4xl'><Link to='about' smooth={true} duration={500} offset={-70} onClick={handleClick}>About</Link></li>
+                <li className='py-4 text-4xl'><Link to='skills' smooth={true} duration={500} offset={-70} onClick={handleClick}>Skills</Link></li>
+                <li className='py-4 text-4xl'><Link to='work' smooth={true} duration={500} offset={-70} onClick={handleClick}>Work</Link></li>
+                <li className='py-4 text-4xl'><Link to='contact' smooth={true} duration={500} offset={-70} onClick={handleClick}>Contact</Link></li>
             </ul>
 
 

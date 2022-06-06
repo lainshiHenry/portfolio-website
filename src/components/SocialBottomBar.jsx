@@ -4,15 +4,15 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const SocialBottomBar = () => {
     return (
-        < div className='flex fixed bottom-[0%] left-[40%]' >
+        < div className='flex fixed bottom-[0%] left-auto' >
             <ul className='flex'>
-                <a href='https://www.linkedin.com/in/lehenry/' className='flex justify-between items-center w-full text-gray-300 hover:-translate-y-2 duration-500'>
+                <a href='https://www.linkedin.com/in/lehenry/' target='_blank' rel='noreferrer' className='flex justify-between items-center w-full text-gray-300 hover:-translate-y-2 duration-500'>
                     <li className='w-[60px] h-[60px] flex justify-between items-center ml-[0px] bg-[#333333]'>
                         <FaLinkedin size={30} />
                     </li>
 
                 </a>
-                <a href='https://github.com/lainshiHenry' className='flex justify-between items-center w-full text-gray-300 hover:-translate-y-2 duration-500'>
+                <a href='https://github.com/lainshiHenry' target='_blank' rel='noreferrer' className='flex justify-between items-center w-full text-gray-300 hover:-translate-y-2 duration-500'>
                     <li className='w-[60px] h-[60px] flex justify-between items-center ml-[0px] bg-[#7b5675]'>
                         <FaGithub size={30} />
                     </li>
