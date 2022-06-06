@@ -8,9 +8,9 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-[#5689C0]'>About</p>
                 </div>
                 <div>
-                    <p className='py-4 w-full'>I'm a full-stack web and mobile software developer building exception and functional digital experiences.</p>
-                    <p className='py-4 w-full'>Proin mattis nulla eu nulla efficitur, eu aliquam sem tempus. Vivamus tristique orci felis, eu dignissim mauris lacinia vitae. Nullam vehicula feugiat fringilla. Maecenas euismod tristique diam, quis convallis mi sagittis nec. Aenean sodales imperdiet vulputate. Fusce accumsan nulla eu laoreet bibendum. vel vestibulum nisi metus sit amet eros.</p>
-                    <p className='py-4 w-full'>Pellentesque magna erat, hendrerit at nunc eget, ultricies mollis quam. Mauris accumsan, odio eget lobortis scelerisque, urna ipsum elementum ante, in dignissim urna sapien non lectus. Praesent ultricies nisi eu ipsum sodales rhoncus sit amet molestie nibh. Curabitur vel felis sed nisi placerat mollis. </p>
+                    <p className='py-4 w-full'>I'm a full-stack web and mobile software developer, building software digital experiences that people find functional, fun, and even competitive.</p>
+                    <p className='py-4 w-full'>My interest in web development started back in 2012 where I needed a consolidated web page that contained all of the video gaming information, tips and tricks, and news about my favourite video games. There wasn't a webpage like that at the time, so I ventured and created my own webpage.</p>
+                    <p className='py-4 w-full'>Fast-forward to today, i've had the opportunity to build my personal portfolio website, a dating app, a household pantry web and mobile app, a young children-focused music mobile app, and a game. </p>
 
 
                 </div>
