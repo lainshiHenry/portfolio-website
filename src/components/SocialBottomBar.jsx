@@ -1,7 +1,6 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaAppStoreIos } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const SocialBottomBar = () => {
     return (
@@ -23,9 +22,9 @@ const SocialBottomBar = () => {
                         <HiOutlineMail size={30} />
                     </li>
                 </a>
-                <a href='/' className='flex justify-between items-center w-full text-gray-300 hover:-translate-y-2 duration-500'>
+                <a href='https://github.com/lainshiHenry/portfolio-website/blob/8930ebeff5dd9c0deb1e4a748877b781732e43b6/Henry%20Le%20Resume.pdf' target='_blank' rel='noreferrer' className='flex justify-between items-center w-full text-gray-300 hover:-translate-y-2 duration-500'>
                     <li className='w-[60px] h-[60px] flex justify-between items-center ml-[0px] bg-[#7b5675]'>
-                        <BsFillPersonLinesFill size={30} />
+                        <FaFileDownload size={30} />
                     </li>
                 </a>
             </ul>
