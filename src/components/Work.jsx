@@ -16,11 +16,11 @@ const Work = () => {
                     <p className='py-4'>Here are some of the projects I have worked on.</p>
                 </div>
                 <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-4 py-8'>
-                    <ProfileItem image={PortfolioWebsiteImage} name='Portfolio Website' />
-                    <ProfileItem image={TileTapperMockup} name='Tile Tapper Game' />
                     <ProfileItem image={RevealedDatingImage} name='Revealed Dating' />
-                    {/*<ProfileItem image={PlaceHolderImage} name='Bearserk Pantry' />*/}
+                    <ProfileItem image={PortfolioWebsiteImage} name='Portfolio Website' />
                     <ProfileItem image={A3MusicAppImage} name='A3! Music App' />
+                    <ProfileItem image={TileTapperMockup} name='Tile Tapper Game' />
+                    {/*<ProfileItem image={PlaceHolderImage} name='Bearserk Pantry' />*/}
                     <ProfileItem image={WeatherAppMockup} name='Weather App' />
                 </div>
             </div>

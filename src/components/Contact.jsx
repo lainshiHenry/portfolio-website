@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 
 const Contact = () => {
@@ -14,6 +14,7 @@ const Contact = () => {
                     <ul>
                         <a href='https://www.linkedin.com/in/lehenry/' target='_blank' rel='noreferrer'><li className='flex py-2'><FaLinkedin size={30} /> LinkedIn</li></a>
                         <a href='mailto:henryle913@outlook.com'><li className='flex py-2'><HiOutlineMail size={30} /> Email</li></a>
+                        <a href='https://github.com/lainshiHenry/portfolio-website/blob/8930ebeff5dd9c0deb1e4a748877b781732e43b6/Henry%20Le%20Resume.pdf' target='_blank' rel='noreferrer'><li className='flex py-2'><FaFileDownload size={30} /> Resume</li></a>
                     </ul>
 
 
