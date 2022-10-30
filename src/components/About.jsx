@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section name='about' className='bg-[#EAEBED] w-full min-h-screen'>
+        <section name='about' className='bg-[#EAEBED] w-full min-h-screen' tabIndex="0">
             <div className='max-w-[700px] mx-auto p-8 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-[#5689C0]'>About</p>

@@ -13,7 +13,7 @@ const NavBar = () => {
             <img src={Logo} alt='Logo' style={{ width: '80px' }} />
 
             {/* menu */}
-            <navigation className='hidden md:flex '>
+            <nav className='hidden md:flex '>
                 <ul className='hidden md:flex'>
                     <li><Link to='home' smooth={true} duration={500}>Home</Link></li>
                     <li><Link to='about' smooth={true} duration={500} offset={-70}>About</Link></li>
@@ -21,7 +21,7 @@ const NavBar = () => {
                     <li><Link to='work' smooth={true} duration={500} offset={-70}>Work</Link></li>
                     <li><Link to='contact' smooth={true} duration={500} offset={-70}>Contact</Link></li>
                 </ul>
-            </navigation>
+            </nav>
 
 
             {/* Hamburger */}
