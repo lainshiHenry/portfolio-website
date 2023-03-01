@@ -19,7 +19,7 @@ const Work = () => {
                 <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-4 py-8'>
                     <ProfileItem image={RevealedDatingImage} name='Revealed Dating' linkRef={"#work"}/>
                     <ProfileItem image={PortfolioWebsiteImage} name='Portfolio Website' linkRef={"#"}/>
-                    <ProfileItem image={BirthdayCardAppMockup} name='Birthday Card App' linkRef={"#"}/>
+                    <ProfileItem image={BirthdayCardAppMockup} name='Birthday Card App' linkRef={"https://demo.d4bszuo33yebe.amplifyapp.com/"}/>
                     <ProfileItem image={A3MusicAppImage} name='A3! Music App' linkRef={"https://master.d2dp8mla44s8xb.amplifyapp.com/"}/>
                     <ProfileItem image={TileTapperMockup} name='Tile Tapper Game' linkRef={"https://apps.apple.com/ca/app/tile-tapper/id1622062104"}/>
                     {/*<ProfileItem image={PlaceHolderImage} name='Bearserk Pantry' />*/}
